@@ -1,0 +1,233 @@
+Test Script
+
+
+
+Test 1: Valid input and correct guess
+
+Script started on 2023-03-01 16:09:37-06:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+[?2004h postel projects$./guesser
+[?2004lThe purpose of the following program is to generate a random number between 1-100 and the user has the maximum number of 10 tries to guess the secret randomly generated number. Please only input whole numbers between 1-100 as your input. 
+Input your guess as an integer between the range of 1-100:
+50
+Your guess was above the  number, please try again.
+Input your guess as an integer between the range of 1-100:
+5 25
+Your guess was above the  number, please try again.
+Input your guess as an integer between the range of 1-100:
+12
+Your guess was below the number, please try again.
+Input your guess as an integer between the range of 1-100:
+17 8
+Your guess was above the  number, please try again.
+Input your guess as an integer between the range of 1-100:
+15
+Your guess was below the number, please try again.
+Input your guess as an integer between the range of 1-100:
+17
+You have correctly guessed the numbers in 6 tries. 
+
+
+Test 2: Valid input and correct guess
+
+[?2004h postel projects$./guesser
+[?2004lThe purpose of the following program is to generate a random number between 1-100 and the user has the maximum number of 10 tries to guess the secret randomly generated number. Please only input whole numbers between 1-100 as your input. 
+Input your guess as an integer between the range of 1-100:
+50
+Your guess was above the  number, please try again.
+Input your guess as an integer between the range of 1-100:
+12
+Your guess was above the  number, please try again.
+Input your guess as an integer between the range of 1-100:
+4
+Your guess was below the number, please try again.
+Input your guess as an integer between the range of 1-100:
+7
+Your guess was above the  number, please try again.
+Input your guess as an integer between the range of 1-100:
+6
+Your guess was above the  number, please try again.
+Input your guess as an integer between the range of 1-100:
+5
+You have correctly guessed the numbers in 6 tries. 
+
+
+Test 3: Valid input and correct guess
+
+[?2004h postel projects$./guesser
+[?2004lThe purpose of the following program is to generate a random number between 1-100 and the user has the maximum number of 10 tries to guess the secret randomly generated number. Please only input whole numbers between 1-100 as your input. 
+Input your guess as an integer between the range of 1-100:
+50
+Your guess was above the  number, please try again.
+Input your guess as an integer between the range of 1-100:
+43
+Your guess was above the  number, please try again.
+Input your guess as an integer between the range of 1-100:
+20
+Your guess was above the  number, please try again.
+Input your guess as an integer between the range of 1-100:
+10
+Your guess was below the number, please try again.
+Input your guess as an integer between the range of 1-100:
+15
+Your guess was below the number, please try again.
+Input your guess as an integer between the range of 1-100:
+18
+Your guess was above the  number, please try again.
+Input your guess as an integer between the range of 1-100:
+16
+Your guess was below the number, please try again.
+Input your guess as an integer between the range of 1-100:
+17
+You have correctly guessed the numbers in 8 tries. 
+[?2004h postel projects$./guesser
+
+
+Test 4: Valid input and correct guess
+
+[?2004lThe purpose of the following program is to generate a random number between 1-100 and the user has the maximum number of 10 tries to guess the secret randomly generated number. Please only input whole numbers between 1-100 as your input. 
+Input your guess as an integer between the range of 1-100:
+50
+Your guess was below the number, please try again.
+Input your guess as an integer between the range of 1-100:
+79
+Your guess was above the  number, please try again.
+Input your guess as an integer between the range of 1-100:
+66
+Your guess was below the number, please try again.
+Input your guess as an integer between the range of 1-100:
+71
+Your guess was above the  number, please try again.
+Input your guess as an integer between the range of 1-100:
+69
+Your guess was above the  number, please try again.
+Input your guess as an integer between the range of 1-100:
+67
+Your guess was below the number, please try again.
+Input your guess as an integer between the range of 1-100:
+68
+You have correctly guessed the numbers in 7 tries. 
+
+
+Test 5: Valid input without following suggestion or correct guess, and edge input
+
+[?2004h postel projects$./guesser
+[?2004lThe purpose of the following program is to generate a random number between 1-100 and the user has the maximum number of 10 tries to guess the secret randomly generated number. Please only input whole numbers between 1-100 as your input. 
+Input your guess as an integer between the range of 1-100:
+1
+Your guess was below the number, please try again.
+Input your guess as an integer between the range of 1-100:
+1 2 1
+Your guess was below the number, please try again.
+Input your guess as an integer between the range of 1-100:
+1
+Your guess was below the number, please try again.
+Input your guess as an integer between the range of 1-100:
+1
+Your guess was below the number, please try again.
+Input your guess as an integer between the range of 1-100:
+1
+Your guess was below the number, please try again.
+Input your guess as an integer between the range of 1-100:
+1
+Your guess was below the number, please try again.
+Input your guess as an integer between the range of 1-100:
+1
+Your guess was below the number, please try again.
+Input your guess as an integer between the range of 1-100:
+1
+Your guess was below the number, please try again.
+Input your guess as an integer between the range of 1-100:
+1
+Your guess was below the number, please try again.
+Input your guess as an integer between the range of 1-100:
+1
+Your guess was below the number, please try again.
+You are out of guesses. The correct number was 53. 
+
+
+Test 6: Edge input, valid input, and invalid (below 1 and over 100) input, and incorrect guesses.
+
+[?2004h postel projects$./guesser
+[?2004lThe purpose of the following program is to generate a random number between 1-100 and the user has the maximum number of 10 tries to guess the secret randomly generated number. Please only input whole numbers between 1-100 as your input. 
+Input your guess as an integer between the range of 1-100:
+0
+Your guess is out of bounds, please try again. 
+Your guess was below the number, please try again.
+Input your guess as an integer between the range of 1-100:
+100
+Your guess was above the  number, please try again.
+Input your guess as an integer between the range of 1-100:
+1
+Your guess was below the number, please try again.
+Input your guess as an integer between the range of 1-100:
+101
+Your guess is out of bounds, please try again. 
+Your guess was above the  number, please try again.
+Input your guess as an integer between the range of 1-100:
+-12
+Your guess is out of bounds, please try again. 
+Your guess was below the number, please try again.
+Input your guess as an integer between the range of 1-100:
+800
+Your guess is out of bounds, please try again. 
+Your guess was above the  number, please try again.
+Input your guess as an integer between the range of 1-100:
+50
+Your guess was above the  number, please try again.
+Input your guess as an integer between the range of 1-100:
+32
+Your guess was above the  number, please try again.
+Input your guess as an integer between the range of 1-100:
+12
+Your guess was below the number, please try again.
+Input your guess as an integer between the range of 1-100:
+22
+Your guess was below the number, please try again.
+You are out of guesses. The correct number was 28. 
+
+
+Test 7: All valid input, and incorrect guesses
+
+[?2004h postel projects$./guesser
+[?2004lThe purpose of the following program is to generate a random number between 1-100 and the user has the maximum number of 10 tries to guess the secret randomly generated number. Please only input whole numbers between 1-100 as your input. 
+Input your guess as an integer between the range of 1-100:
+64
+Your guess was above the  number, please try again.
+Input your guess as an integer between the range of 1-100:
+67
+Your guess was above the  number, please try again.
+Input your guess as an integer between the range of 1-100:
+58  87 8
+Your guess was above the  number, please try again.
+Input your guess as an integer between the range of 1-100:
+99 8
+Your guess was above the  number, please try again.
+Input your guess as an integer between the range of 1-100:
+99
+Your guess was above the  number, please try again.
+Input your guess as an integer between the range of 1-100:
+100
+Your guess was above the  number, please try again.
+Input your guess as an integer between the range of 1-100:
+1
+Your guess was below the number, please try again.
+Input your guess as an integer between the range of 1-100:
+21
+Your guess was below the number, please try again.
+Input your guess as an integer between the range of 1-100:
+345  4
+Your guess was above the  number, please try again.
+Input your guess as an integer between the range of 1-100:
+65
+Your guess was above the  number, please try again.
+You are out of guesses. The correct number was 27. 
+[?2004h postel projects$exit
+[?2004lexit
+
+Script done on 2023-03-01 16:15:50-06:00 [COMMAND_EXIT_CODE="0"]
+
+
+
+
+The program behaved as expected for every input, so, we have fulfilled the
+criteria for this project.

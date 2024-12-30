@@ -1,0 +1,51 @@
+Test Plan
+This test plan will test valid and invalid input. This test plan will only
+cover the input of integers, as this program is not designed to handle
+input of any other type. The first four tests will correctly guess the
+number, the fifth test will not guess the number correctly, but only test
+valid input, the sixth test will use valid and invalid input, and not guess
+the number correctly, and the seventh test will test edge cases and not
+guess the number correctly.
+
+Valid Input
+- Correctly guess the number: start with 50, then proceed according to output
+- Do not guess the number: pick a random number, then proceed against the
+ouput
+- Test the same number the whole time
+- Guess corner cases (1 and 100)
+
+Invalid Input
+- Test 0
+- Test integers above 100
+- Test negative integers
+
+
+Expected output:
+
+At the beginning of the program:
+   "The purpose of the following program is to generate a random number between 1-100 and the user has the maximum number of 10 tries to guess the secret randomly generated number. Please only input whole numbers between 1-100 as your input."
+
+Before every input from user:
+"Input your guess as an integer between the range of 1-100."
+
+In response to valid input:
+    If the randomly-generated number is guessed correctly:
+       "You have correctly guessed the number in n tries.", where n=number
+       of guesses. (fixed post-testing: said "numbers" before this.)
+    If the number guessed is too low:
+       "Your guess was below the number, please try again."
+    If the number guessed is too high:
+       "Your guess was above the  number, please try again."
+    If the tenth guess is unsuccessful:
+       Corresponding message if guess is too low or high.
+       "You are out of guesses. The correct number was n.", where n is the
+       randomly generated number.
+
+For invalid input:
+    If guess is above 100 or below 1:
+       "Your guess is out of bounds, please try again."
+
+
+
+The program behaved as expected, so, we have fulfilled the criteria for
+this project.
